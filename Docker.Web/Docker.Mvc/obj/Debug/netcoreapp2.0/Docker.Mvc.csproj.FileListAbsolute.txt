@@ -1,0 +1,10 @@
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\bin\Debug\netcoreapp2.0\Docker.Mvc.deps.json
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\bin\Debug\netcoreapp2.0\Docker.Mvc.runtimeconfig.json
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\bin\Debug\netcoreapp2.0\Docker.Mvc.runtimeconfig.dev.json
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\bin\Debug\netcoreapp2.0\Docker.Mvc.dll
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\bin\Debug\netcoreapp2.0\Docker.Mvc.pdb
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\obj\Debug\netcoreapp2.0\Docker.Mvc.csproj.CoreCompileInputs.cache
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\obj\Debug\netcoreapp2.0\Docker.Mvc.AssemblyInfoInputs.cache
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\obj\Debug\netcoreapp2.0\Docker.Mvc.AssemblyInfo.cs
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\obj\Debug\netcoreapp2.0\Docker.Mvc.dll
+D:\Projects\DockerDemo\Docker.Web\Docker.Mvc\obj\Debug\netcoreapp2.0\Docker.Mvc.pdb

@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  docker.web:
+    image: docker.web
+    build:
+      context: .
+      dockerfile: Docker.Web/Dockerfile
+
+  docker.mvc:
+    image: docker.mvc
+    build:
+      context: .
+      dockerfile: Docker.Mvc/Dockerfile
+

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.Web", "Docker.Web\Docker.Web.csproj", "{ECD2D710-F92C-4C30-A3A9-0DD4BA6F3FBB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{90BE536D-73BB-4F07-91CD-A9899F689936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.Mvc", "Docker.Mvc\Docker.Mvc.csproj", "{9BB1EA0D-8A4E-4F12-8256-64B11AE5A7EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD2D710-F92C-4C30-A3A9-0DD4BA6F3FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD2D710-F92C-4C30-A3A9-0DD4BA6F3FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD2D710-F92C-4C30-A3A9-0DD4BA6F3FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD2D710-F92C-4C30-A3A9-0DD4BA6F3FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BE536D-73BB-4F07-91CD-A9899F689936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BE536D-73BB-4F07-91CD-A9899F689936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BE536D-73BB-4F07-91CD-A9899F689936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BE536D-73BB-4F07-91CD-A9899F689936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB1EA0D-8A4E-4F12-8256-64B11AE5A7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB1EA0D-8A4E-4F12-8256-64B11AE5A7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB1EA0D-8A4E-4F12-8256-64B11AE5A7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB1EA0D-8A4E-4F12-8256-64B11AE5A7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62CE9FD5-43C9-4865-B737-7F99642FC024}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  docker.mvc:
+    image: docker.mvc:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_docker.mvc$
+    volumes:
+      - D:\Projects\DockerDemo\Docker.Web\Docker.Mvc:/app
+      - C:\Users\lijianyu\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_docker.mvc$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_docker.mvc$ bin/Debug/netcoreapp2.0/Docker.Mvc.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+  docker.web:
+    image: docker.web:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_docker.web$
+    volumes:
+      - D:\Projects\DockerDemo\Docker.Web\Docker.Web:/app
+      - C:\Users\lijianyu\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_docker.web$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_docker.web$ bin/Debug/netcoreapp2.0/Docker.Web.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+

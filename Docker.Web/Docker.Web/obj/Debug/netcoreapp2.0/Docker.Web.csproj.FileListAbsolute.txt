@@ -1,0 +1,10 @@
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\bin\Debug\netcoreapp2.0\Docker.Web.deps.json
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\bin\Debug\netcoreapp2.0\Docker.Web.runtimeconfig.json
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\bin\Debug\netcoreapp2.0\Docker.Web.runtimeconfig.dev.json
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\bin\Debug\netcoreapp2.0\Docker.Web.dll
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\bin\Debug\netcoreapp2.0\Docker.Web.pdb
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\obj\Debug\netcoreapp2.0\Docker.Web.csproj.CoreCompileInputs.cache
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\obj\Debug\netcoreapp2.0\Docker.Web.AssemblyInfoInputs.cache
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\obj\Debug\netcoreapp2.0\Docker.Web.AssemblyInfo.cs
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\obj\Debug\netcoreapp2.0\Docker.Web.dll
+D:\Projects\DockerDemo\Docker.Web\Docker.Web\obj\Debug\netcoreapp2.0\Docker.Web.pdb

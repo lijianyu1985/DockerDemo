@@ -1,0 +1,20 @@
+services:
+  docker.mvc:
+    build:
+      context: D:\Projects\DockerDemo\Docker.Web
+      dockerfile: Docker.Mvc/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: docker.mvc
+    ports:
+    - 80/tcp
+  docker.web:
+    build:
+      context: D:\Projects\DockerDemo\Docker.Web
+      dockerfile: Docker.Web/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: docker.web
+    ports:
+    - 80/tcp
+version: '3.0'
