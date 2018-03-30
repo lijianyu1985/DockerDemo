@@ -2,14 +2,31 @@ version: '3'
 
 services:
   docker.web:
-    image: docker.web
+    image: docker.web:${TAG:-latest}
     build:
       context: .
       dockerfile: Docker.Web/Dockerfile
 
   docker.mvc:
-    image: docker.mvc
+    image: docker.mvc:${TAG:-latest}
     build:
       context: .
       dockerfile: Docker.Mvc/Dockerfile
+      
+  docker.web2:
+    image: docker.web:latest
 
+  docker.mvc2:
+    image: docker.mvc:latest
+      
+  docker.web3:
+    image: docker.web:latest
+
+  docker.mvc3:
+    image: docker.mvc:latest
+      
+  docker.web4:
+    image: docker.web:latest
+
+  docker.mvc4:
+    image: docker.mvc:latest
